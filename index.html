@@ -3,7 +3,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet"  href="css/bootstrap.min.css">
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/scrolling-nav.css" rel="stylesheet">
+        <script src="js/scrolling-nav.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Annie+Use+Your+Telescope|Fredericka+the+Great|Frijole|Indie+Flower|Satisfy|VT323" rel="stylesheet">
         <script src="js/bootstrap.min.js"> </script>
@@ -17,23 +23,29 @@
           p {font-size: 16px;}
           .margin {margin-bottom: 45px;}
           .bg-1 {
-              background-color: #38ff7d; /* Green */
+              background-image: url("images/background.jpg");
+              /*background-color: #38ff7d; */
               color: #ffffff;
           }
           .bg-2 {
-              background-color: #3f5366; /* Dark Blue */
+              background-color: #3f5366;
               color: #ffffff;
           }
           .bg-3 {
-              background-color: #ffffff; /* White */
+              background-color: #ffffff;
               color: #555555;
           }
+
           .bg-4 {
-              background-color: #38b2ff; /* Black Gray */
-              color: #fff;
+              background-color: #d7e8ba;
+              color: #555555;
           }
           .bg-5 {
-              background-color: #2f2f2f; /* Black Gray */
+              background-color: #38b2ff;
+              color: #fff;
+          }
+          .bg-6 {
+              background-color: #2f2f2f;
               color: #fff;
           }
           .container-fluid {
@@ -56,7 +68,7 @@
 
     </head>
 
-    <body data-spy="scroll" data-target=".navbar" data-offset="50"
+    <body data-spy="scroll" data-target=".navbar-fixed-top" data-offset="30"
 
 
         <!-- Navbar -->
@@ -68,13 +80,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#section1">Me</a>
+              <a class="navbar-brand page-scroll" href="#section1">AF</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse" id="myNavbar">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="#section2">SOBRE MIM</a></li>
-                <li><a href="#section3">PROJETOS</a></li>
-                <li><a href="#section4">CONTATO</a></li>
+                  <li class="hidden">
+                     <a class="page-scroll" href="#page-top"></a>
+                </li>
+                <li><a class="page-scroll" href="#section2">SOBRE MIM</a></li>
+                <li><a class="page-scroll" href="#section3">PROJETOS</a></li>
+                <li><a class="page-scroll" href="#section4">SKILLS</a></li>
+                <li><a class="page-scroll" href="#section5">CONTATO</a></li>
               </ul>
             </div>
           </div>
@@ -89,14 +106,14 @@
 
         <!-- Second Container -->
         <div id="section2" class="container-fluid bg-2 text-center">
-          <h3 class="margin">Quem sou eu?</h3>
+          <h1 class="margin" style="font-family: 'Satisfy', cursive;">Quem sou eu?</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </a>
         </div>
 
         <!-- Third Container (Grid) -->
         <div id="section3" class="container-fluid bg-3 text-center">
-          <h3 class="margin">Projetos</h3><br>
+          <h1 class="margin" style="font-family: 'Satisfy', cursive;">Projetos</h1>
           <div class="row">
             <div class="col-sm-4">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -115,7 +132,17 @@
 
         <!-- fourth Container -->
         <div id="section4" class="container-fluid bg-4 text-center">
-          <h1 class="margin" style="font-family: 'Frijole', cursive;">Say Hello!</h3>
+          <h1 class="margin" style="font-family: 'Satisfy', cursive;">Skills</h1>
+          <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- fifth Container -->
+        <div id="section5" class="container-fluid bg-5 text-center">
+          <h1 class="margin" style="font-family: 'Satisfy', cursive;">Say Hello!</h3>
           <form id="contact-form" method="post" action="contact.php" role="form">
 
           <div class="messages"></div>
@@ -177,9 +204,21 @@
         </div>
 
         <!-- Footer -->
-        <footer class="container-fluid bg-5 text-center">
-          <p><strong>See you!</strong></p>
+        <footer class="container-fluid bg-6 text-center">
+          <p style="font-size: 30px;font-family: 'Satisfy', cursive;"><strong>See you!</strong></p>
         </footer>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
 
     </body>
 
