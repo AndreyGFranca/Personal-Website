@@ -8,8 +8,8 @@
 
         <!-- Custom CSS -->
         <link href="css/scrolling-nav.css" rel="stylesheet">
+        <link href="css/bars.css" rel="stylesheet">
         <link href="css/ihover.css" rel="stylesheet">
-        <link href="css/mycss.css" rel="stylesheet">
         <script src="js/scrolling-nav.js"></script>
         <script src="js/jquery.easing.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -102,7 +102,7 @@
         <!-- First Container -->
         <div id="section1" class="container-fluid bg-1 text-center">
           <h1 style="font-size: 60px;font-family: 'Satisfy', cursive;">Andrey França</h1>
-          <img src="images/perfil.jpg" class="img-responsive img-circle margin" style="display:inline;" alt="Bird" width="350" height="350">
+          <img src="images/perfil.jpg" class="img-responsive img-circle margin" style="display:inline;" alt="Bird" width="300" height="300">
           <h3 style="font-size: 48px;font-family: 'Annie Use Your Telescope', cursive;">B.Tech. Computer Science Engineering student</h3>
         </div>
 
@@ -144,14 +144,26 @@
           <div class="col-sm-2"></div>
             <div class="col-sm-8">
                 <p>
-                    <img src="images/cpp.svg" style="width:10%" alt="Image">
-                    <img src="images/java.svg" style="width:10%" alt="Image">
-                    <!--<img src="images/android.svg" style="width:10%" alt="Image"> -->
-                    <!--<img src="images/mysql.svg" style="width:10%" alt="Image"> -->
-                    <img src="images/python.svg" style="width:10%" alt="Image">
-                    <img src="images/php.svg" style="width:10%" alt="Image">
-                    <!-- <img src="images/css3.svg" style="width:10%" alt="Image"> -->
-                    <!-- <img src="images/html.svg" style="width:10%" alt="Image"> -->
+                    <div id="codeconSkills">
+                        <div class="codeconSkillbar">
+                            <div id="codeconHTML">
+                            <span class="codeconSkillArea ">HTML</span>
+                            <span class="PercentText ">100%</span>
+                            </div>
+                        </div>
+                        <div class="codeconSkillbar">
+                            <div id="codeconCSS">
+                                <span class="codeconSkillArea ">CSS/CSS3</span>
+                                <span class="PercentText ">70%</span>
+                            </div>
+                        </div>
+                        <div class="codeconSkillbar">
+                            <div id="codeconjQuery">
+                                <span class="codeconSkillArea ">jQuery</span>
+                                <span class="PercentText ">40%</span>
+                            </div>
+                        </div>
+                    </div>
                 </p>
             </div>
           </a>
@@ -160,64 +172,12 @@
         <!-- fifth Container -->
         <div id="section5" class="container-fluid bg-5 text-center">
           <h1 class="margin" style="font-family: 'Satisfy', cursive;">Say Hello!</h3>
-          <form id="contact-form" method="post" action="contact.php" role="form">
+            Contact: <a href="mailto:andreygfranca@gmail.com?subject=feedback" style="color: black">email me!</a>
+            <div class="row">
+                <a href="https://github.com/AndreyGFranca"><img src="images/github.svg" style="width: 5%" alt="Image" /></a>
 
-          <div class="messages"></div>
-
-          <div class="controls">
-              <div class="row">
-                  <div class="col-md-2"></div>
-                  <div class="col-md-4">
-                      <div class="form-group">
-                          <label for="form_name">Firstname *</label>
-                          <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-                  <div class="col-md"></div>
-                  <div class="col-md-4">
-                      <div class="form-group">
-                          <label for="form_lastname">Lastname *</label>
-                          <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-2"></div>
-                  <div class="col-md-4">
-                      <div class="form-group">
-                          <label for="form_email">Email *</label>
-                          <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-                  <div class="col-md"></div>
-                  <div class="col-md-4">
-                      <div class="form-group">
-                          <label for="form_phone">Phone</label>
-                          <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-md-2"></div>
-                  <div class="col-md-8">
-                      <div class="form-group">
-                          <label for="form_message">Message *</label>
-                          <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                          <div class="help-block with-errors"></div>
-                      </div>
-                  </div>
-                  <div class="col-md-12">
-                      <input type="submit" class="btn btn-success btn-send" value="Send message">
-                  </div>
-              </div>
-          </div>
-
-      </form>
-          </a>
+                <a href="https://andreyfrancablog.wordpress.com/"><img src="images/wordpress.svg" style="width: 5%" alt="Image" /></a>
+            </div>
         </div>
 
         <!-- Footer -->
