@@ -123,6 +123,118 @@ width: 10px;
 to {
 width: 40%}
 }
+
+
+#codeconCpp {
+animation: Animate-Cpp 5s;
+-webkit-animation: Animate-Cpp 5s;
+-moz-animation: Animate-Cpp 5s;
+-o-animation: Animate-Cpp 5s;
+width: 80%;
+height: 50px;
+position: absolute;
+background-color: black;
+}
+@keyframes Animate-Cpp {
+from {
+width: 10px;
+}
+to {
+width: 80%}
+}@-webkit-keyframes Animate-Cpp {
+from {
+width: 10px;
+}
+to {
+width: 80%}
+}@-moz-keyframes Animate-Cpp {
+from {
+width: 10px;
+}
+to {
+width: 80%}
+}@-o-keyframes Animate-Cpp {
+from {
+width: 10px;
+}
+to {
+width: 80%}
+}
+
+
+#codeconJava {
+animation: Animate-Java 5s;
+-webkit-animation: Animate-Java 5s;
+-moz-animation: Animate-Java 5s;
+-o-animation: Animate-Java 5s;
+width: 70%;
+height: 50px;
+position: absolute;
+background-color: darkred;
+}
+@keyframes Animate-Java {
+from {
+width: 10px;
+}
+to {
+width: 70%}
+}@-webkit-keyframes Animate-Java {
+from {
+width: 10px;
+}
+to {
+width: 70%}
+}@-moz-keyframes Animate-Java {
+from {
+width: 10px;
+}
+to {
+width: 70%}
+}@-o-keyframes Animate-Java {
+from {
+width: 10px;
+}
+to {
+width: 70%}
+}
+
+#codeconPython {
+animation: Animate-Py 5s;
+-webkit-animation: Animate-Py 5s;
+-moz-animation: Animate-Py 5s;
+-o-animation: Animate-Py 5s;
+width: 30%;
+height: 50px;
+position: absolute;
+background-color: #f34543;
+}
+@keyframes Animate-Py {
+from {
+width: 10px;
+}
+to {
+width: 30%}
+}@-webkit-keyframes Animate-Py {
+from {
+width: 10px;
+}
+to {
+width: 30%}
+}@-moz-keyframes Animate-Py {
+from {
+width: 10px;
+}
+to {
+width: 30%}
+}@-o-keyframes Animate-Py {
+from {
+width: 10px;
+}
+to {
+width: 30%}
+}
+
+
 .codeconSkillArea {
 z-index: 1;
 float: left;
