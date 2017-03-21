@@ -19,7 +19,7 @@ background: rgba(17, 17, 17, .3);
 margin: 20px auto;
 }
 #codeconHTML {
-width: 100%;
+width: 80%;
 animation: Animate-HTML 4s;
 -webkit-animation: Animate-HTML 4s;
 -moz-animation: Animate-HTML 4s;
@@ -33,25 +33,25 @@ from {
 width: 10px;
 }
 to {
-width: 100%}
+width: 80%}
 }@-webkit-keyframes Animate-HTML {
 from {
 width: 10px;
 }
 to {
-width: 100%}
+width: 80%}
 }@-moz-keyframes Animate-HTML {
 from {
 width: 10px;
 }
 to {
-width: 100%}
+width: 80%}
 }@-o-keyframes Animate-HTML {
 from {
 width: 10px;
 }
 to {
-width: 100%}
+width: 80%}
 }
 #codeconCSS {
 animation: Animate-CSS 5s;
@@ -203,7 +203,7 @@ animation: Animate-Py 5s;
 -webkit-animation: Animate-Py 5s;
 -moz-animation: Animate-Py 5s;
 -o-animation: Animate-Py 5s;
-width: 30%;
+width: 75%;
 height: 50px;
 position: absolute;
 background-color: #f34543;
@@ -213,25 +213,25 @@ from {
 width: 10px;
 }
 to {
-width: 30%}
+width: 75%}
 }@-webkit-keyframes Animate-Py {
 from {
 width: 10px;
 }
 to {
-width: 30%}
+width: 75%}
 }@-moz-keyframes Animate-Py {
 from {
 width: 10px;
 }
 to {
-width: 30%}
+width: 75%}
 }@-o-keyframes Animate-Py {
 from {
 width: 10px;
 }
 to {
-width: 30%}
+width: 75%}
 }
 
 
