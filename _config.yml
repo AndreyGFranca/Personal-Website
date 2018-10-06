@@ -2,7 +2,7 @@
 title: Andrey G. França - Web Developer
 description: "A blog about lorem ipsum ..."
 baseurl: '' # for test: remove string '/space-jekyll-template' to ''
-url: "http://127.0.0.1:4000" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "http://andreygfranca.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 
 # User settings
 username: andreygfranca
@@ -47,11 +47,11 @@ links:
       key_trigger: 5
   section_2:
     - title: github
-      url: http://www.github.com/victorvoid
+      url: http://www.github.com/andreygfranca
       new_tab: true
       key_trigger: g
     - title: twitter
-      url: http://www.twitter.com/victorvoid
+      url: http://www.twitter.com/andreygfranca
       key_trigger: t
     - title: search
       url: ""
@@ -59,12 +59,12 @@ links:
 
 # projects in header index
 projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: mcec - Monte Carlo Event Chain
+    url: https://github.com/AndreyGFranca/mcec
+  - name: pynns - Python nearest neighbor search
+    url: https://github.com/AndreyGFranca/pynns
+  - name: snake game in C
+    url: https://github.com/AndreyGFranca/Snake-Game-In-C
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
