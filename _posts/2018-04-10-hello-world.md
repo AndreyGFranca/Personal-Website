@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Sharding in MongoDB"
+title:  "Hello blog world"
 image: ''
-date:   2016-09-12 00:06:31
+date:   2018-10-04 00:06:31
 tags:
-- mongodb
-description: ''
+- test
+description: ' hello world'
 categories:
 - Learn Jekyll 
 ---
@@ -43,7 +43,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis, fuga s
 4. <a href="http://stackoverflow.com/questions/5401992/what-does-scale-horizontally-and-scale-vertically-mean" target="_blank">What does scale horizontally and scale vertically mean?</a>
 
 ## Lorem ipsum dolor sit amet,res.
-
+`js
+var x = 10
+`
 
 {% highlight javascript %}
 use admin
