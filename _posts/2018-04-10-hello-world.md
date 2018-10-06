@@ -47,12 +47,21 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque corporis, fuga s
 var x = 10
 `
 
+```js
+$('#text').append('<input ></input>')
+if (var a === 0){
+    console.log('hello world')
+}
+```
+
+
+
 {% highlight javascript %}
 use admin
 db.createUser{
-	user: "bonitao",
-	pwd: "2016bonitao",
-	roles: [{role: "userAdminAnyDatabase", db: "admin"}]
+​	user: "bonitao",
+​	pwd: "2016bonitao",
+​	roles: [{role: "userAdminAnyDatabase", db: "admin"}]
 }
 {% endhighlight %}
 
@@ -62,8 +71,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque asperiores quam
 
 db.updateUser("bonitao",
 {
-	pwd: "2016bonitao",
-	roles: [{role: "read", db: "assets"}]
+​	pwd: "2016bonitao",
+​	roles: [{role: "read", db: "assets"}]
 })
 
 {% endhighlight %}
